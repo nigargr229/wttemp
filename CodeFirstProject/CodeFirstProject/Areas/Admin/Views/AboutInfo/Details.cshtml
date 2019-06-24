@@ -1,0 +1,114 @@
+﻿@model CodeFirstProject.Models.AboutInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AboutInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ButtonInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ButtonInfo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Position)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Position)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CountryInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountryInfo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Faculty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Faculty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EducationTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EducationTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EducationInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EducationInfo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PreviosTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PreviosTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Previosİnfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Previosİnfo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 21 Jun 2019 15:01:00 at https://portotheme.com/html/porto/7.5.0/demo-resume.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://portotheme.com/html/porto/7.5.0/demo-resume.html -O1 "C:\Users\code\Desktop\Adam Doe\Adam Doe" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:06:41	Warning: 	File not parsed, looks like binary: https://portotheme.com/html/porto/7.5.0/vendor/rs-plugin/css/openhand.cur
+15:06:41	Warning: 	File not parsed, looks like binary: https://portotheme.com/html/porto/7.5.0/vendor/rs-plugin/css/closedhand.cur
+15:32:43	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-short.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project.html)
+15:32:43	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-short-2.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project.html)
+15:32:43	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-short-3.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project.html)
+15:32:43	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-1.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project-1.html)
+15:32:43	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-2.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project-2.html)
+15:32:43	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-3.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project-3.html)
+15:32:43	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-4.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project-4.html)
+15:32:44	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-5.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project-5.html)
+15:32:44	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-6.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project-6.html)
+15:32:44	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/projects/project-7.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/portfolio-ajax-project-7.html)
+15:32:45	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/ajax/img/team/team-2.jpg (from https://portotheme.com/html/porto/7.5.0/ajax/demo-architecture-interior-ajax-team-detail.html)
+15:32:50	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/porto/7.5.0/img/demos/photography/blog/our-blog-11.jpg (from https://portotheme.com/html/porto/7.5.0/demo-photography-blog.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 31 minutes 55 seconds : 2356 links scanned, 2342 files written (222243102 bytes overall) [171102154 bytes received at 89348 bytes/sec], 59806986 bytes transferred using HTTP compression in 846 files, ratio 12%, 6.7 requests per connection
+(12 errors, 2 warnings, 0 messages)
